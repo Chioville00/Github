@@ -1,0 +1,129 @@
+*{
+    background: #f3f5fc;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    
+}
+
+.logo{
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 10%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+}
+.texto{
+    border: none;
+    color:#0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder { color: #0A3871;}
+   .texto:focus{
+        outline: none;
+    }
+    .mensaje{
+        outline: none;
+        background: white;
+        background-image: url(Muñeco.png);
+        background-repeat: no-repeat;
+        border: none;
+        border-radius: 24px;
+        color: #0A3871;
+        margin-left: 90px;
+        margin-top: 20px;
+        padding-left: 20px;
+        position: fixed;
+    }
+    .mensaje:focus{
+        outline: none;
+        
+    }
+
+    .botones{
+        display: flex;
+        margin-top: 18px;
+
+    }
+
+    .boton-encriptar{
+        background-color: #0A3871;
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        color: white;
+        cursor: pointer;
+        height: 67px;
+        width: 328px;
+    }
+    .boton-desencriptar{
+        background: #d8dfd8;
+        border: 1px solid#0A3871;
+        border-radius: 24px;
+        color: #0A3871;
+        cursor: pointer;
+        height: 67px;
+        margin-left: 30px;
+        width: 328px;
+    }
+
+    .copiar{
+        border: 1px solid #0A3871;
+        border-radius: 24px;
+        color: #0A3871;
+        cursor: pointer;
+        height: 67px;
+        width: 336px;
+        margin-left: 108px;
+        margin-top: 402px;
+        position: absolute;
+        width: 336px;
+    }
+
+    .terminos{
+        color: #495057;
+        font-size: 12px;
+        
+    }
+
+    @media (max-width: 57.5em) {
+        .container{
+            display: flex;
+            flex-direction: row;
+
+        }
+        .main{
+            width: 100%;
+        }
+
+        .texto{
+            width: 80%;
+            height: 60%;
+            left: 10%;
+            top: 5%;
+        }
+
+        .terminos{
+            width: 80%;
+            left: 10%;
+            top: 67%;
+        }
+
+        .botones{
+            width: 80%;
+            left: 100%;
+            top: 70%;
+        }
+
+        .boton-desencriptar, .boton-encriptar{
+            
+        }
+
+    }
